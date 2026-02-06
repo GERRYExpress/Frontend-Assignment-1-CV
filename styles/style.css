@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#my-image {
+    width: 20%;
+    height: auto;
+}
+
+.container {
+    border: solid 1px black;
+}
