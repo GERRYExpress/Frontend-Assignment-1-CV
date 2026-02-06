@@ -1,12 +1,65 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #011433;
+    text-align: justify;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+hr {
+    height: 2px;
+    border-top: 1px solid green;
 }
 
 #my-image {
-    width: 20%;
+    border: solid 10px #89A2C9;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 75%;
     height: auto;
 }
 
+.header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#name {
+    font-size: 2em;
+}
+
+#profile {
+    margin: 50px 0;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
 .container {
-    border: solid 1px black;
+    padding-top: 5%;
+    background-color: #E9EDF5;
+}
+
+.content {
+    margin: 15px;
+}
+
+
+/* For Overriding Bootstrap */
+.bg-custom {
+    background-color: #294675;
+}
+
+.nav-item:active {
+    background-color: #0D254A;
+    margin: 0 10px;
+}
+
+.column {
+    display: block;
+    border: solid 1px red;
 }
