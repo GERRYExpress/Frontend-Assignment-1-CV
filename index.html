@@ -14,11 +14,19 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <!-- Import Roboto fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">CV</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+      <a class="navbar-brand" href="./index.html">CV</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -51,18 +59,46 @@
 
     <main>
       <div class="container">
-        <div>
-          <h1>Krittameth Tansuwan</h1>
-          <img
-            id="my-image"
-            src="./images/672115002.jpg"
-            alt="Krittameth Tansuwan Image"
-          />
-
-          <div class="info-container">
-            <!-- Content -->
-            <p>About me</p>
+        <div class="row">
+          <h1 id="title">GERRYEXPRESS</h1>
+        </div>
+        <div class="row">
+          <div class="column col-lg-4">
+            <img
+              id="my-image"
+              src="./images/672115002.jpg"
+              alt="Krittameth Tansuwan Image"
+            />
           </div>
+        </div>
+        <div class="row">
+          <div class="column col-lg-4">
+            <h1 id="name" class="header">KRITTAMETH TANSUWAN</h1>
+            <p id="profile">
+              A Sophomore Software Engineering student with a passion for
+              mastering CI/CD and automation to facilitate the software
+              development, testing, and deployment processes.
+            </p>
+            <hr />
+            <div class="row">
+              <div class="col-lg-6 left-text">PROFESSION</div>
+              <div class="col-lg-6 right-text">BACKEND DEVELOPER</div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-lg-6 left-text">DATE OF BIRTH</div>
+              <div class="col-lg-6 right-text">15 JULY 2005</div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-lg-6 left-text">PROFESSION</div>
+              <div class="col-lg-6 right-text">BACHELOR'S DEGREE</div>
+            </div>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column col-lg-4"></div>
         </div>
       </div>
     </main>
