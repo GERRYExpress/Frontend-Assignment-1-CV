@@ -1,3 +1,27 @@
+#back {
+    color: #011433;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px black;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#back:hover {
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px black;
+}
+#back:active {
+    background-color: gray;
+}
+
 .container {
     padding: 0;
 }
