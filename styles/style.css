@@ -72,17 +72,28 @@ p {
 }
 
 #portfolio-button {
+    text-align: center;
     border: 3px solid #011433;
     background-color: #5471A1;
+    padding: 10px 0;
+    border-radius: 15px;
     color: #E9EDF5;
     font-weight: bold;
     font-size: 1.5em;
     width: 100%;
+    text-decoration: none;
 }
 
 #portfolio-button:hover {
     border: 3px double #E9EDF5;
     background-color: #89A2C9;
+    color: #011433;
+    box-shadow: 5px 5px 5px black;
+}
+
+#portfolio-button:active {
+    border: 3px double #E9EDF5;
+    background-color: #0D254A;
     color: #011433;
     box-shadow: 5px 5px 5px black;
 }
