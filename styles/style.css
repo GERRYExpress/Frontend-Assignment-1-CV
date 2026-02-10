@@ -27,6 +27,14 @@ i {
     size: 50px 50px;
 }
 
+footer a {
+    color: #E9EDF5;
+}
+
+footer a:hover {
+    color: #0D254A;
+}
+
 p {
     font-size: 1em;
     line-height: 1.5em;
