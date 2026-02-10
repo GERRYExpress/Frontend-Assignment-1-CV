@@ -110,4 +110,18 @@ p {
 
 .column {
     display: block;
+
+}
+
+.progress-bar {
+    height: 5px;
+    margin: 0 0 20px;
+}
+
+.row.align-items-center > .column {
+    font-weight: bold;
+}
+
+.progress-bar-custom-color {
+    background-color: #5471A1 !important;
 }
