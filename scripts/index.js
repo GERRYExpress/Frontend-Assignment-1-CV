@@ -32,6 +32,19 @@ $("#to-hobby").on("click", () => {
     }, 1000);
 });
 
+$("#to-contact").on("click", () => {
+    $("#contact").css("background-color", "#011433");
+    $("#contact > p").css("color", "#E9EDF5");
+    $("#contact").css("color", "#E9EDF5");
+    $("#contact").css("padding", "25px 15px");
+    setTimeout(()=> {
+        $("#contact").css("background", "none");
+        $("#contact").css("color", "#011433");
+        $("#contact > p").css("color", "#011433");
+        $("#contact").css("padding", "0");
+    }, 1000);
+});
+
 
 $("#portfolio-button").on("click", () => {
     document.body.classList.add("loading");
@@ -41,5 +54,3 @@ $("#portfolio-button").on("click", () => {
         window.location.replace("./pages/portfolio.html")
     }, 1000);
 });
-
-
