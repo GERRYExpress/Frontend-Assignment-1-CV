@@ -16,14 +16,26 @@ p {
     margin: 0 0 10px 0;
 }
 
-#my-image {
-    border: solid 10px #89A2C9;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    width: 75%;
-    height: auto;
-    margin: 25px 0;
+@media only screen and (width >= 768px) {
+    #my-image {
+        border: solid 5px #89A2C9;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        width: 80%;
+        height: auto;
+        margin: 25px 0;
+    }
+}
+
+@media only screen and (width <= 768px){
+    #my-image {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        margin: 15px auto;
+    }
 }
 
 .header {
