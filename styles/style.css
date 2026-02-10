@@ -1,13 +1,41 @@
 body {
+    padding: 0;
+    margin:0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #011433;
     text-align: justify;
+}
+
+main > .container {
+    padding-bottom: 50px;
+}
+
+footer {
+    padding: 15px;
+    background: #5471A1;
+    color: #E9EDF5;
+    text-align: center;
+}
+
+footer div p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+i {
+    padding: 0 5px 50px 5px;
+    size: 50px 50px;
 }
 
 p {
     font-size: 1em;
     line-height: 1.5em;
     color: #011433;
+}
+
+#loading {
+    background-color: #294675;
+    opacity: 0.7;
 }
 
 .hr-header {
@@ -62,6 +90,11 @@ p {
     margin: 10px 5px;    
 }
 
+.tag:hover {
+    background-color: #011433;
+    color: #E9EDF5;
+}
+
 #name {
     font-size: 1.75em;
     font-weight: bold;
@@ -110,6 +143,13 @@ p {
     box-shadow: 5px 5px 5px black;
 }
 
+#portfolio-button:disabled {
+    border: none;
+    background-color: #0D254A;
+    color: #E9EDF5;
+    box-shadow: 5px 5px 5px black;
+}
+
 /* For Overriding Bootstrap */
 .bg-custom {
     background-color: #294675;
@@ -130,10 +170,19 @@ p {
     margin: 0 0 20px;
 }
 
+.progress-bar:hover {
+    height: 15px;
+    margin: 0 0 25;
+}
+
 .row.align-items-center > .column {
     font-weight: bold;
 }
 
 .progress-bar-custom-color {
     background-color: #5471A1 !important;
+}
+
+.progress-bar-custom-color:hover {
+    background-color: #011433 !important;
 }
