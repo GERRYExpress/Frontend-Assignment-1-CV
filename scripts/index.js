@@ -1,3 +1,14 @@
+$("#to-experience").on("click", () => {
+    $("#experience").css("background-color", "#011433");
+    $("#experience").css("color", "#E9EDF5");
+    $("#experience").css("padding", "25px 15px");
+    setTimeout(()=> {
+        $("#experience").css("background", "none");
+        $("#experience").css("color", "#011433");
+        $("#experience").css("padding", "0");
+    }, 1000);
+});
+
 $("#to-education").on("click", () => {
     $("#education").css("background-color", "#011433");
     $("#education").css("color", "#E9EDF5");
@@ -7,7 +18,6 @@ $("#to-education").on("click", () => {
         $("#education").css("color", "#011433");
         $("#education").css("padding", "0");
     }, 1000);
-
 });
 
 $("#to-skill").on("click", () => {
@@ -35,13 +45,22 @@ $("#to-hobby").on("click", () => {
 $("#to-contact").on("click", () => {
     $("#contact").css("background-color", "#011433");
     $("#contact > p").css("color", "#E9EDF5");
-    $("#contact").css("color", "#E9EDF5");
     $("#contact").css("padding", "25px 15px");
     setTimeout(()=> {
         $("#contact").css("background", "none");
-        $("#contact").css("color", "#011433");
         $("#contact > p").css("color", "#011433");
         $("#contact").css("padding", "0");
+    }, 1000);
+});
+
+$("#to-portfolio").on("click", () => {
+    $("#portfolio").css("background-color", "#011433");
+    $("#portfolio").css("color", "#E9EDF5");
+    $("#portfolio").css("padding", "25px 15px");
+    setTimeout(()=> {
+        $("#portfolio").css("background", "none");
+        $("#portfolio").css("color", "#011433");
+        $("#portfolio").css("padding", "0");
     }, 1000);
 });
 
