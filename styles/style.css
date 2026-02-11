@@ -1,9 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin:0;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #011433;
     text-align: justify;
+    background: linear-gradient(to right, white, #E9EDF5, white);
+}
+
+main > .container {
+    padding-bottom: 50px;
+}
+
+footer {
+    padding: 15px;
+    background: #5471A1;
+    color: #E9EDF5;
+    text-align: center;
+}
+
+footer div p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+i {
+    padding: 0 5px 50px 5px;
+    size: 50px 50px;
+    color: #E9EDF5;
+}
+
+footer a {
+    color: #E9EDF5;
+}
+
+footer a:hover {
+    color: #0D254A;
 }
 
 main > .container {
@@ -163,11 +198,6 @@ p {
     background-color: #294675;
 }
 
-.nav-item:active {
-    background-color: #0D254A;
-    margin: 0 10px;
-}
-
 .column {
     display: block;
 
@@ -193,4 +223,30 @@ p {
 
 .progress-bar-custom-color:hover {
     background-color: #011433 !important;
+}
+
+/* Navbar */
+
+nav {
+    font-size: 1.5em;
+}
+
+.nav-item:hover {
+    opacity: 1;
+    background-color: #011433;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.nav-item:active {
+    opacity: 0.6
+
+}
+
+.navbar-nav {
+    margin: 25px
+}
+
+.navbar-brand {
+    margin: 0 30px;
 }
