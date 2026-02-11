@@ -41,6 +41,35 @@ footer a:hover {
     color: #0D254A;
 }
 
+main > .container {
+    padding-bottom: 50px;
+}
+
+footer {
+    padding: 15px;
+    background: #5471A1;
+    color: #E9EDF5;
+    text-align: center;
+}
+
+footer div p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+i {
+    padding: 0 5px 50px 5px;
+    size: 50px 50px;
+}
+
+footer a {
+    color: #E9EDF5;
+}
+
+footer a:hover {
+    color: #0D254A;
+}
+
 p {
     font-size: 1em;
     line-height: 1.5em;
