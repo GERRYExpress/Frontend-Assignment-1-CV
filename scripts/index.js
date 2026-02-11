@@ -73,3 +73,35 @@ $("#portfolio-button").on("click", () => {
         window.location.replace("./pages/portfolio.html")
     }, 1000);
 });
+
+let xCursor = 0;
+let yCursor = 0;
+
+document.addEventListener("mousemove", (event) => {
+    xCursor = event.pageX;
+    yCursor = event.pageY;
+});
+
+const displayCircle = () => {
+    const circle = document.querySelector("#circle");
+    circle.classList.add("highlighted");
+    circle.style.top = yCursor-50 + "px";
+    circle.style.left = xCursor-50 + "px";
+}
+
+const hideCircle = () => {
+    const circle = document.querySelector("#circle");
+    circle.classList.remove("highlighted");
+}
+
+document.querySelectorAll("div").forEach(div => {
+    div.addEventListener("mousemove", () => {
+        displayCircle();
+    });
+    div.addEventListener("scroll", () => {
+        displayCircle();
+    });
+    div.addEventListener("mouseleave", () => {
+        hideCircle();
+    })
+});
